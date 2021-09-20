@@ -85,8 +85,11 @@ nav ul li a {
     right: 150px;
 }
 
+.about {
+    margin-top: 50px;
+}
+
 .title {
-    margin-top: 80px;
     text-align: center;
     font-size: 40px;
     font-weight: 100px;
@@ -100,6 +103,7 @@ nav ul li a {
     letter-spacing: 1px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
+    padding-bottom: 50px;
 }
 
 .collections {
@@ -107,6 +111,7 @@ nav ul li a {
     padding: 0;
     width: 100%;
     box-sizing: border-box;
+    background: linear-gradient(135deg, rgb(255, 168, 168) 10%, rgb(252, 255, 0) 100%);
 }
 
 h2 {
@@ -136,10 +141,47 @@ h2 {
 .gallery img {
     width: 100%;
     border-radius: 10px;
-    margin-left: 50px;
 }
 
 .desc {
     padding: 15px;
     text-align: center;
+}
+
+.categories {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 35px;
+    font-style: italic;
+    color: rgb(128, 3, 28);
+}
+
+.imgbox {
+    margin: 0 35%;
+    width: 20%;
+    padding: 20px 0
+}
+
+.material {
+    background-color: rgba(100, 148, 237, 0.089);
+    padding-bottom: 10px;
+}
+
+.material p {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.material p em {
+    color: rgb(187, 8, 8);
 }
